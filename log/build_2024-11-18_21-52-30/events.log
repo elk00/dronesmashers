@@ -1,0 +1,213 @@
+[0.000000] (-) TimerEvent: {}
+[0.001755] (arm) JobQueued: {'identifier': 'arm', 'dependencies': OrderedDict()}
+[0.002440] (uwb_new) JobQueued: {'identifier': 'uwb_new', 'dependencies': OrderedDict()}
+[0.002549] (arm) JobStarted: {'identifier': 'arm'}
+[0.045739] (uwb_new) JobStarted: {'identifier': 'uwb_new'}
+[0.098884] (-) TimerEvent: {}
+[0.199684] (-) TimerEvent: {}
+[0.300526] (-) TimerEvent: {}
+[0.401388] (-) TimerEvent: {}
+[0.502255] (-) TimerEvent: {}
+[0.603027] (-) TimerEvent: {}
+[0.703813] (-) TimerEvent: {}
+[0.804640] (-) TimerEvent: {}
+[0.905625] (-) TimerEvent: {}
+[1.006337] (-) TimerEvent: {}
+[1.107175] (-) TimerEvent: {}
+[1.174137] (uwb_new) JobProgress: {'identifier': 'uwb_new', 'progress': 'cmake'}
+[1.175687] (uwb_new) Command: {'cmd': ['/usr/bin/cmake', '/home/drone1/ros2_ws/src/uwb_new', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/drone1/ros2_ws/install/uwb_new'], 'cwd': '/home/drone1/ros2_ws/build/uwb_new', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_SG:en'), ('USER', 'drone1'), ('ROS_PACKAGE_PATH', '/home/drone1/ros2_ws/install/uwb_new/share'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/drone1'), ('OLDPWD', '/home/drone1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1510'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/drone1/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'drone1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/drone1/ros2_ws/install/uwb_new/lib/aarch64-linux-gnu/pkgconfig:/home/drone1/ros2_ws/install/uwb_new/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'drone1'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/lib/ccache:/home/drone1/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/drone1/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/drone1/ardu_ws/Micro-XRCE-DDS-Gen/scripts'), ('SESSION_MANAGER', 'local/drone2-desktop:@/tmp/.ICE-unix/1173,unix/drone2-desktop:/tmp/.ICE-unix/1173'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4e189e17_566b_497f_bf0b_733a9a501a1e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_SG.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PYO5W2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.209'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/drone1/ros2_ws/install/arm:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/drone1/ros2_ws/build/uwb_new'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/drone1/ros2_ws/install/arm/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/drone1/ros2_ws/install/uwb_new')]), 'shell': False}
+[1.207382] (-) TimerEvent: {}
+[1.309088] (-) TimerEvent: {}
+[1.409989] (-) TimerEvent: {}
+[1.506283] (uwb_new) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.510174] (-) TimerEvent: {}
+[1.611242] (-) TimerEvent: {}
+[1.712592] (-) TimerEvent: {}
+[1.813552] (-) TimerEvent: {}
+[1.840711] (uwb_new) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.887950] (uwb_new) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.913728] (-) TimerEvent: {}
+[2.014503] (-) TimerEvent: {}
+[2.115474] (-) TimerEvent: {}
+[2.190950] (uwb_new) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.215660] (-) TimerEvent: {}
+[2.221613] (uwb_new) StdoutLine: {'line': b'-- Check for working C compiler: /usr/lib/ccache/cc - skipped\n'}
+[2.222636] (uwb_new) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.224342] (uwb_new) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.238455] (uwb_new) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.315893] (-) TimerEvent: {}
+[2.416829] (-) TimerEvent: {}
+[2.517825] (-) TimerEvent: {}
+[2.578552] (uwb_new) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.609979] (uwb_new) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped\n'}
+[2.611203] (uwb_new) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.613173] (uwb_new) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.617972] (-) TimerEvent: {}
+[2.641336] (uwb_new) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.718195] (-) TimerEvent: {}
+[2.819040] (-) TimerEvent: {}
+[2.919839] (-) TimerEvent: {}
+[3.020650] (-) TimerEvent: {}
+[3.121617] (-) TimerEvent: {}
+[3.222802] (-) TimerEvent: {}
+[3.323626] (-) TimerEvent: {}
+[3.424475] (-) TimerEvent: {}
+[3.525557] (-) TimerEvent: {}
+[3.626610] (-) TimerEvent: {}
+[3.727409] (-) TimerEvent: {}
+[3.828226] (-) TimerEvent: {}
+[3.929142] (-) TimerEvent: {}
+[4.030015] (-) TimerEvent: {}
+[4.130790] (-) TimerEvent: {}
+[4.231567] (-) TimerEvent: {}
+[4.332340] (-) TimerEvent: {}
+[4.433145] (-) TimerEvent: {}
+[4.533948] (-) TimerEvent: {}
+[4.634837] (-) TimerEvent: {}
+[4.666792] (uwb_new) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[4.735137] (-) TimerEvent: {}
+[4.836361] (-) TimerEvent: {}
+[4.937629] (-) TimerEvent: {}
+[4.955181] (arm) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/arm', 'build', '--build-base', '/home/drone1/ros2_ws/build/arm/build', 'install', '--record', '/home/drone1/ros2_ws/build/arm/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/drone1/ros2_ws/src/arm', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_SG:en', 'USER': 'drone1', 'ROS_PACKAGE_PATH': '/home/drone1/ros2_ws/install/uwb_new/share', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/drone1', 'OLDPWD': '/home/drone1', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1510', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/drone1/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'drone1', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/drone1/ros2_ws/install/uwb_new/lib/aarch64-linux-gnu/pkgconfig:/home/drone1/ros2_ws/install/uwb_new/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'drone1', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/lib/ccache:/home/drone1/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/drone1/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/drone1/ardu_ws/Micro-XRCE-DDS-Gen/scripts', 'SESSION_MANAGER': 'local/drone2-desktop:@/tmp/.ICE-unix/1173,unix/drone2-desktop:/tmp/.ICE-unix/1173', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/4e189e17_566b_497f_bf0b_733a9a501a1e', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_SG.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.PYO5W2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.209', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/drone1/ros2_ws/install/arm:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/drone1/ros2_ws/build/arm', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/drone1/ros2_ws/build/arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone1/ros2_ws/install/arm/lib/python3.10/site-packages:/home/drone1/ros2_ws/install/arm/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/drone1/ros2_ws/install/uwb_new'}, 'shell': False}
+[5.040568] (-) TimerEvent: {}
+[5.142108] (-) TimerEvent: {}
+[5.242942] (-) TimerEvent: {}
+[5.343876] (-) TimerEvent: {}
+[5.353558] (uwb_new) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[5.444079] (-) TimerEvent: {}
+[5.544863] (-) TimerEvent: {}
+[5.645607] (-) TimerEvent: {}
+[5.725290] (uwb_new) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[5.745771] (-) TimerEvent: {}
+[5.770010] (uwb_new) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[5.834133] (uwb_new) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[5.845942] (-) TimerEvent: {}
+[5.919428] (uwb_new) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.946105] (-) TimerEvent: {}
+[6.033621] (uwb_new) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.046268] (-) TimerEvent: {}
+[6.146972] (-) TimerEvent: {}
+[6.247683] (-) TimerEvent: {}
+[6.348409] (-) TimerEvent: {}
+[6.355396] (uwb_new) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[6.378410] (uwb_new) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[6.448598] (-) TimerEvent: {}
+[6.478956] (arm) StdoutLine: {'line': b'running egg_info\n'}
+[6.548795] (-) TimerEvent: {}
+[6.571240] (arm) StdoutLine: {'line': b'writing ../../build/arm/arm.egg-info/PKG-INFO\n'}
+[6.574017] (arm) StdoutLine: {'line': b'writing dependency_links to ../../build/arm/arm.egg-info/dependency_links.txt\n'}
+[6.575764] (arm) StdoutLine: {'line': b'writing entry points to ../../build/arm/arm.egg-info/entry_points.txt\n'}
+[6.577619] (arm) StdoutLine: {'line': b'writing requirements to ../../build/arm/arm.egg-info/requires.txt\n'}
+[6.578972] (arm) StdoutLine: {'line': b'writing top-level names to ../../build/arm/arm.egg-info/top_level.txt\n'}
+[6.649104] (-) TimerEvent: {}
+[6.749966] (-) TimerEvent: {}
+[6.790632] (arm) StdoutLine: {'line': b"reading manifest file '../../build/arm/arm.egg-info/SOURCES.txt'\n"}
+[6.799388] (arm) StdoutLine: {'line': b"writing manifest file '../../build/arm/arm.egg-info/SOURCES.txt'\n"}
+[6.800681] (arm) StdoutLine: {'line': b'running build\n'}
+[6.801603] (arm) StdoutLine: {'line': b'running build_py\n'}
+[6.803517] (arm) StdoutLine: {'line': b'copying arm/arm_and_spin.py -> /home/drone1/ros2_ws/build/arm/build/lib/arm\n'}
+[6.805300] (arm) StdoutLine: {'line': b'copying arm/arm.py -> /home/drone1/ros2_ws/build/arm/build/lib/arm\n'}
+[6.806828] (arm) StdoutLine: {'line': b'copying arm/__init__.py -> /home/drone1/ros2_ws/build/arm/build/lib/arm\n'}
+[6.808309] (arm) StdoutLine: {'line': b'copying arm/new.py -> /home/drone1/ros2_ws/build/arm/build/lib/arm\n'}
+[6.810241] (arm) StdoutLine: {'line': b'copying arm/first.py -> /home/drone1/ros2_ws/build/arm/build/lib/arm\n'}
+[6.811872] (arm) StdoutLine: {'line': b'copying arm/drone.py -> /home/drone1/ros2_ws/build/arm/build/lib/arm\n'}
+[6.814875] (arm) StdoutLine: {'line': b'running install\n'}
+[6.842730] (arm) StdoutLine: {'line': b'running install_lib\n'}
+[6.850175] (-) TimerEvent: {}
+[6.951199] (-) TimerEvent: {}
+[6.959068] (arm) StdoutLine: {'line': b'running install_data\n'}
+[6.961739] (arm) StdoutLine: {'line': b'copying resource/arm -> /home/drone1/ros2_ws/install/arm/share/ament_index/resource_index/packages\n'}
+[6.963990] (arm) StdoutLine: {'line': b'copying package.xml -> /home/drone1/ros2_ws/install/arm/share/arm\n'}
+[6.965128] (arm) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.977543] (uwb_new) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[7.051403] (-) TimerEvent: {}
+[7.068240] (arm) StdoutLine: {'line': b"removing '/home/drone1/ros2_ws/install/arm/lib/python3.10/site-packages/arm-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[7.070356] (arm) StdoutLine: {'line': b'Copying ../../build/arm/arm.egg-info to /home/drone1/ros2_ws/install/arm/lib/python3.10/site-packages/arm-0.0.0-py3.10.egg-info\n'}
+[7.076835] (arm) StdoutLine: {'line': b'running install_scripts\n'}
+[7.151630] (-) TimerEvent: {}
+[7.241884] (uwb_new) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[7.251831] (-) TimerEvent: {}
+[7.352679] (-) TimerEvent: {}
+[7.453497] (-) TimerEvent: {}
+[7.554350] (-) TimerEvent: {}
+[7.655166] (-) TimerEvent: {}
+[7.667104] (uwb_new) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[7.748764] (uwb_new) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[7.755358] (-) TimerEvent: {}
+[7.856284] (-) TimerEvent: {}
+[7.957297] (-) TimerEvent: {}
+[8.006870] (arm) StdoutLine: {'line': b'Installing arm script to /home/drone1/ros2_ws/install/arm/lib/arm\n'}
+[8.009726] (arm) StdoutLine: {'line': b'Installing arm_and_spin script to /home/drone1/ros2_ws/install/arm/lib/arm\n'}
+[8.011326] (arm) StdoutLine: {'line': b'Installing drone script to /home/drone1/ros2_ws/install/arm/lib/arm\n'}
+[8.014550] (arm) StdoutLine: {'line': b"writing list of installed files to '/home/drone1/ros2_ws/build/arm/install.log'\n"}
+[8.057591] (-) TimerEvent: {}
+[8.066235] (uwb_new) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[8.069772] (uwb_new) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[8.157895] (-) TimerEvent: {}
+[8.178200] (arm) CommandEnded: {'returncode': 0}
+[8.250052] (arm) JobEnded: {'identifier': 'arm', 'rc': 0}
+[8.258076] (-) TimerEvent: {}
+[8.358859] (-) TimerEvent: {}
+[8.388960] (uwb_new) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[8.395001] (uwb_new) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[8.459052] (-) TimerEvent: {}
+[8.559801] (-) TimerEvent: {}
+[8.660561] (-) TimerEvent: {}
+[8.690873] (uwb_new) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[8.760853] (-) TimerEvent: {}
+[8.861841] (-) TimerEvent: {}
+[8.962513] (-) TimerEvent: {}
+[9.063289] (-) TimerEvent: {}
+[9.087060] (uwb_new) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.156675] (uwb_new) StdoutLine: {'line': b'-- Generating done\n'}
+[9.163360] (uwb_new) StderrLine: {'line': b'\x1b[33mCMake Warning:\n'}
+[9.163957] (-) TimerEvent: {}
+[9.164381] (uwb_new) StderrLine: {'line': b'  Manually-specified variables were not used by the project:\n'}
+[9.164889] (uwb_new) StderrLine: {'line': b'\n'}
+[9.165374] (uwb_new) StderrLine: {'line': b'    CATKIN_INSTALL_INTO_PREFIX_ROOT\n'}
+[9.165801] (uwb_new) StderrLine: {'line': b'\n'}
+[9.166379] (uwb_new) StderrLine: {'line': b'\x1b[0m\n'}
+[9.166743] (uwb_new) StdoutLine: {'line': b'-- Build files have been written to: /home/drone1/ros2_ws/build/uwb_new\n'}
+[9.202283] (uwb_new) CommandEnded: {'returncode': 0}
+[9.204426] (uwb_new) JobProgress: {'identifier': 'uwb_new', 'progress': 'build'}
+[9.209780] (uwb_new) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/drone1/ros2_ws/build/uwb_new', '--', '-j4', '-l4'], 'cwd': '/home/drone1/ros2_ws/build/uwb_new', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_SG:en'), ('USER', 'drone1'), ('ROS_PACKAGE_PATH', '/home/drone1/ros2_ws/install/uwb_new/share'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/drone1'), ('OLDPWD', '/home/drone1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1510'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/drone1/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'drone1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/drone1/ros2_ws/install/uwb_new/lib/aarch64-linux-gnu/pkgconfig:/home/drone1/ros2_ws/install/uwb_new/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'drone1'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/lib/ccache:/home/drone1/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/drone1/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/drone1/ardu_ws/Micro-XRCE-DDS-Gen/scripts'), ('SESSION_MANAGER', 'local/drone2-desktop:@/tmp/.ICE-unix/1173,unix/drone2-desktop:/tmp/.ICE-unix/1173'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4e189e17_566b_497f_bf0b_733a9a501a1e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_SG.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PYO5W2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.209'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/drone1/ros2_ws/install/arm:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/drone1/ros2_ws/build/uwb_new'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/drone1/ros2_ws/install/arm/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/drone1/ros2_ws/install/uwb_new')]), 'shell': False}
+[9.264225] (-) TimerEvent: {}
+[9.365094] (-) TimerEvent: {}
+[9.405138] (uwb_new) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target uwb_node\x1b[0m\n'}
+[9.465334] (-) TimerEvent: {}
+[9.533973] (uwb_new) StdoutLine: {'line': b'[100%] Built target uwb_node\n'}
+[9.565544] (-) TimerEvent: {}
+[9.580122] (uwb_new) CommandEnded: {'returncode': 0}
+[9.665711] (-) TimerEvent: {}
+[9.766525] (-) TimerEvent: {}
+[9.867407] (-) TimerEvent: {}
+[9.968278] (-) TimerEvent: {}
+[10.068995] (-) TimerEvent: {}
+[10.090675] (uwb_new) JobProgress: {'identifier': 'uwb_new', 'progress': 'install'}
+[10.133469] (uwb_new) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/drone1/ros2_ws/build/uwb_new'], 'cwd': '/home/drone1/ros2_ws/build/uwb_new', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_SG:en'), ('USER', 'drone1'), ('ROS_PACKAGE_PATH', '/home/drone1/ros2_ws/install/uwb_new/share'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/drone1'), ('OLDPWD', '/home/drone1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1510'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/drone1/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'drone1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/drone1/ros2_ws/install/uwb_new/lib/aarch64-linux-gnu/pkgconfig:/home/drone1/ros2_ws/install/uwb_new/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'drone1'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/lib/ccache:/home/drone1/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/drone1/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/drone1/ardu_ws/Micro-XRCE-DDS-Gen/scripts'), ('SESSION_MANAGER', 'local/drone2-desktop:@/tmp/.ICE-unix/1173,unix/drone2-desktop:/tmp/.ICE-unix/1173'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4e189e17_566b_497f_bf0b_733a9a501a1e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_SG.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PYO5W2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.209'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/drone1/ros2_ws/install/arm:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/drone1/ros2_ws/build/uwb_new'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/drone1/ros2_ws/install/arm/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/drone1/ros2_ws/install/uwb_new')]), 'shell': False}
+[10.168224] (uwb_new) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.169094] (-) TimerEvent: {}
+[10.169972] (uwb_new) StdoutLine: {'line': b'-- Up-to-date: /home/drone1/ros2_ws/install/uwb_new/lib/uwb_new/uwb_node\n'}
+[10.170977] (uwb_new) StdoutLine: {'line': b'-- Up-to-date: /home/drone1/ros2_ws/install/uwb_new/include\n'}
+[10.171553] (uwb_new) StdoutLine: {'line': b'-- Up-to-date: /home/drone1/ros2_ws/install/uwb_new/include/uwb_new\n'}
+[10.172160] (uwb_new) StdoutLine: {'line': b'-- Up-to-date: /home/drone1/ros2_ws/install/uwb_new/share/ament_index/resource_index/package_run_dependencies/uwb_new\n'}
+[10.172750] (uwb_new) StdoutLine: {'line': b'-- Up-to-date: /home/drone1/ros2_ws/install/uwb_new/share/ament_index/resource_index/parent_prefix_path/uwb_new\n'}
+[10.173415] (uwb_new) StdoutLine: {'line': b'-- Up-to-date: /home/drone1/ros2_ws/install/uwb_new/share/uwb_new/environment/ament_prefix_path.sh\n'}
+[10.173862] (uwb_new) StdoutLine: {'line': b'-- Installing: /home/drone1/ros2_ws/install/uwb_new/share/uwb_new/environment/ament_prefix_path.dsv\n'}
+[10.175043] (uwb_new) StdoutLine: {'line': b'-- Up-to-date: /home/drone1/ros2_ws/install/uwb_new/share/uwb_new/environment/path.sh\n'}
+[10.175611] (uwb_new) StdoutLine: {'line': b'-- Installing: /home/drone1/ros2_ws/install/uwb_new/share/uwb_new/environment/path.dsv\n'}
+[10.176799] (uwb_new) StdoutLine: {'line': b'-- Up-to-date: /home/drone1/ros2_ws/install/uwb_new/share/uwb_new/local_setup.bash\n'}
+[10.177439] (uwb_new) StdoutLine: {'line': b'-- Up-to-date: /home/drone1/ros2_ws/install/uwb_new/share/uwb_new/local_setup.sh\n'}
+[10.177947] (uwb_new) StdoutLine: {'line': b'-- Up-to-date: /home/drone1/ros2_ws/install/uwb_new/share/uwb_new/local_setup.zsh\n'}
+[10.178449] (uwb_new) StdoutLine: {'line': b'-- Installing: /home/drone1/ros2_ws/install/uwb_new/share/uwb_new/local_setup.dsv\n'}
+[10.179393] (uwb_new) StdoutLine: {'line': b'-- Installing: /home/drone1/ros2_ws/install/uwb_new/share/uwb_new/package.dsv\n'}
+[10.180899] (uwb_new) StdoutLine: {'line': b'-- Up-to-date: /home/drone1/ros2_ws/install/uwb_new/share/ament_index/resource_index/packages/uwb_new\n'}
+[10.181632] (uwb_new) StdoutLine: {'line': b'-- Up-to-date: /home/drone1/ros2_ws/install/uwb_new/share/uwb_new/cmake/uwb_newConfig.cmake\n'}
+[10.182155] (uwb_new) StdoutLine: {'line': b'-- Up-to-date: /home/drone1/ros2_ws/install/uwb_new/share/uwb_new/cmake/uwb_newConfig-version.cmake\n'}
+[10.182572] (uwb_new) StdoutLine: {'line': b'-- Up-to-date: /home/drone1/ros2_ws/install/uwb_new/share/uwb_new/package.xml\n'}
+[10.187985] (uwb_new) CommandEnded: {'returncode': 0}
+[10.269321] (-) TimerEvent: {}
+[10.370172] (-) TimerEvent: {}
+[10.471044] (-) TimerEvent: {}
+[10.548276] (uwb_new) JobEnded: {'identifier': 'uwb_new', 'rc': 0}
+[10.551674] (-) EventReactorShutdown: {}

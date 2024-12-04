@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/arm/arm.egg-info/PKG-INFO
+writing dependency_links to ../../build/arm/arm.egg-info/dependency_links.txt
+writing entry points to ../../build/arm/arm.egg-info/entry_points.txt
+writing requirements to ../../build/arm/arm.egg-info/requires.txt
+writing top-level names to ../../build/arm/arm.egg-info/top_level.txt
+reading manifest file '../../build/arm/arm.egg-info/SOURCES.txt'
+writing manifest file '../../build/arm/arm.egg-info/SOURCES.txt'
+running build
+running build_py
+copying arm/arm_and_spin2.py -> /home/drone1/ros2_ws/build/arm/build/lib/arm
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/drone1/ros2_ws/install/arm/lib/python3.10/site-packages/arm-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/arm/arm.egg-info to /home/drone1/ros2_ws/install/arm/lib/python3.10/site-packages/arm-0.0.0-py3.10.egg-info
+running install_scripts
+Installing arm script to /home/drone1/ros2_ws/install/arm/lib/arm
+Installing arm_and_spin script to /home/drone1/ros2_ws/install/arm/lib/arm
+Installing drone script to /home/drone1/ros2_ws/install/arm/lib/arm
+writing list of installed files to '/home/drone1/ros2_ws/build/arm/install.log'

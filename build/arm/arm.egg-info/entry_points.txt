@@ -1,0 +1,4 @@
+[console_scripts]
+arm = arm.arm:main
+arm_and_spin = arm.arm_and_spin:main
+drone = arm.drone:main

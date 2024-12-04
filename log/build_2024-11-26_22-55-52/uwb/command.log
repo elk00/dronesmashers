@@ -1,0 +1,2 @@
+Invoking command in '/home/drone1/ros2_ws/build/uwb': /usr/bin/cmake --build /home/drone1/ros2_ws/build/uwb -- -j4 -l4
+Invoked command in '/home/drone1/ros2_ws/build/uwb' returned '2': /usr/bin/cmake --build /home/drone1/ros2_ws/build/uwb -- -j4 -l4

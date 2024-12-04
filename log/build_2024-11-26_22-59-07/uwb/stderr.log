@@ -1,0 +1,11 @@
+[01m[K/home/drone1/ros2_ws/uwb/src/parse.cpp:[m[K In function ‘[01m[Kvoid reset_state(uint8_t*, size_t&, int&)[m[K’:
+[01m[K/home/drone1/ros2_ws/uwb/src/parse.cpp:114:12:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K-Wformat-extra-args[m[K]
+  114 |     printf([01;35m[K"Resetting state due to invalid frame or timeout?\n"[m[K, g_nlt_tagframe0.fixed_part_size);
+      |            [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/drone1/ros2_ws/uwb/src/parse.cpp:[m[K At global scope:
+[01m[K/home/drone1/ros2_ws/uwb/src/parse.cpp:118:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kasda[m[K’ does not name a type
+  118 | } [01;31m[Kasda[m[K r we resFa faE
+      |   [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/uwb_node.dir/build.make:76: CMakeFiles/uwb_node.dir/src/parse.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/uwb_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

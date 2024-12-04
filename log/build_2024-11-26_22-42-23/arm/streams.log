@@ -1,0 +1,29 @@
+[5.203s] Invoking command in '/home/drone1/ros2_ws/src/arm': PYTHONPATH=/home/drone1/ros2_ws/build/arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone1/ros2_ws/install/arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/arm build --build-base /home/drone1/ros2_ws/build/arm/build install --record /home/drone1/ros2_ws/build/arm/install.log --single-version-externally-managed install_data
+[8.188s] running egg_info
+[8.338s] writing ../../build/arm/arm.egg-info/PKG-INFO
+[8.339s] writing dependency_links to ../../build/arm/arm.egg-info/dependency_links.txt
+[8.340s] writing entry points to ../../build/arm/arm.egg-info/entry_points.txt
+[8.341s] writing requirements to ../../build/arm/arm.egg-info/requires.txt
+[8.342s] writing top-level names to ../../build/arm/arm.egg-info/top_level.txt
+[8.603s] reading manifest file '../../build/arm/arm.egg-info/SOURCES.txt'
+[8.610s] writing manifest file '../../build/arm/arm.egg-info/SOURCES.txt'
+[8.611s] running build
+[8.612s] running build_py
+[8.620s] running install
+[8.650s] running install_lib
+[8.779s] byte-compiling /home/drone1/ros2_ws/install/arm/lib/python3.10/site-packages/arm/arm_and_spin2.py to arm_and_spin2.cpython-310.pyc
+[8.789s] byte-compiling /home/drone1/ros2_ws/install/arm/lib/python3.10/site-packages/arm/arm.py to arm.cpython-310.pyc
+[8.797s] byte-compiling /home/drone1/ros2_ws/install/arm/lib/python3.10/site-packages/arm/fake_uwb.py to fake_uwb.cpython-310.pyc
+[8.799s] byte-compiling /home/drone1/ros2_ws/install/arm/lib/python3.10/site-packages/arm/__init__.py to __init__.cpython-310.pyc
+[8.803s] byte-compiling /home/drone1/ros2_ws/install/arm/lib/python3.10/site-packages/arm/new.py to new.cpython-310.pyc
+[8.831s] byte-compiling /home/drone1/ros2_ws/install/arm/lib/python3.10/site-packages/arm/drone.py to drone.cpython-310.pyc
+[8.839s] running install_data
+[8.840s] running install_egg_info
+[8.942s] removing '/home/drone1/ros2_ws/install/arm/lib/python3.10/site-packages/arm-0.0.0-py3.10.egg-info' (and everything under it)
+[8.942s] Copying ../../build/arm/arm.egg-info to /home/drone1/ros2_ws/install/arm/lib/python3.10/site-packages/arm-0.0.0-py3.10.egg-info
+[8.950s] running install_scripts
+[9.733s] Installing arm script to /home/drone1/ros2_ws/install/arm/lib/arm
+[9.734s] Installing arm_and_spin script to /home/drone1/ros2_ws/install/arm/lib/arm
+[9.735s] Installing drone script to /home/drone1/ros2_ws/install/arm/lib/arm
+[9.738s] writing list of installed files to '/home/drone1/ros2_ws/build/arm/install.log'
+[9.882s] Invoked command in '/home/drone1/ros2_ws/src/arm' returned '0': PYTHONPATH=/home/drone1/ros2_ws/build/arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone1/ros2_ws/install/arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/arm build --build-base /home/drone1/ros2_ws/build/arm/build install --record /home/drone1/ros2_ws/build/arm/install.log --single-version-externally-managed install_data

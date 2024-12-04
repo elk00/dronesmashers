@@ -1,0 +1,14 @@
+[1.818s] Invoking command in '/home/drone1/ros2_ws/build/uwb': /usr/bin/cmake --build /home/drone1/ros2_ws/build/uwb -- -j4 -l4
+[2.543s] [35m[1mConsolidate compiler generated dependencies of target uwb_node[0m
+[2.826s] [ 11%] [32mBuilding CXX object CMakeFiles/uwb_node.dir/src/parse.cpp.o[0m
+[34.883s] [ 22%] [32m[1mLinking CXX executable uwb_node[0m
+[35.993s] /usr/bin/ld: CMakeFiles/uwb_node.dir/src/parse.cpp.o: in function `process_frame_data(std::shared_ptr<UwbPosePublisher>, unsigned char*, unsigned long)':
+[35.994s] parse.cpp:(.text+0x278): undefined reference to `g_nlt_tagframe0'
+[35.995s] /usr/bin/ld: parse.cpp:(.text+0x27c): undefined reference to `g_nlt_tagframe0'
+[35.995s] /usr/bin/ld: parse.cpp:(.text+0x2a8): undefined reference to `g_nlt_tagframe0'
+[35.996s] /usr/bin/ld: parse.cpp:(.text+0x2ac): undefined reference to `g_nlt_tagframe0'
+[36.079s] collect2: error: ld returned 1 exit status
+[36.086s] gmake[2]: *** [CMakeFiles/uwb_node.dir/build.make:279: uwb_node] Error 1
+[36.088s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/uwb_node.dir/all] Error 2
+[36.089s] gmake: *** [Makefile:146: all] Error 2
+[36.099s] Invoked command in '/home/drone1/ros2_ws/build/uwb' returned '2': /usr/bin/cmake --build /home/drone1/ros2_ws/build/uwb -- -j4 -l4

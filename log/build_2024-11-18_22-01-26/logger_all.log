@@ -1,0 +1,249 @@
+[0.788s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.789s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffffbd12cf70>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffbd259de0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffbd259de0>>, mixin_verb=('build',))
+[1.040s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.041s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.041s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.041s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.042s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.042s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.042s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/drone1/ros2_ws'
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.135s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.135s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.136s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.136s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.136s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.137s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.138s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.138s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.139s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.140s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.140s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.141s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.142s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.142s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.143s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.144s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.144s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.144s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.146s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.146s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.146s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.147s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.147s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.147s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.148s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm) by extensions ['ignore', 'ignore_ament_install']
+[1.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm) by extension 'ignore'
+[1.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm) by extension 'ignore_ament_install'
+[1.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm) by extensions ['colcon_pkg']
+[1.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm) by extension 'colcon_pkg'
+[1.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm) by extensions ['colcon_meta']
+[1.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm) by extension 'colcon_meta'
+[1.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm) by extensions ['ros']
+[1.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm) by extension 'ros'
+[1.165s] DEBUG:colcon.colcon_core.package_identification:Package 'src/arm' with type 'ros.ament_python' and name 'arm'
+[1.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb_new) by extensions ['ignore', 'ignore_ament_install']
+[1.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb_new) by extension 'ignore'
+[1.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb_new) by extension 'ignore_ament_install'
+[1.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb_new) by extensions ['colcon_pkg']
+[1.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb_new) by extension 'colcon_pkg'
+[1.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb_new) by extensions ['colcon_meta']
+[1.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb_new) by extension 'colcon_meta'
+[1.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb_new) by extensions ['ros']
+[1.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb_new) by extension 'ros'
+[1.173s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uwb_new' with type 'ros.catkin' and name 'uwb_new'
+[1.173s] Level 1:colcon.colcon_core.package_identification:_identify(uwb_new_package) by extensions ['ignore', 'ignore_ament_install']
+[1.174s] Level 1:colcon.colcon_core.package_identification:_identify(uwb_new_package) by extension 'ignore'
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(uwb_new_package) by extension 'ignore_ament_install'
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(uwb_new_package) by extensions ['colcon_pkg']
+[1.176s] Level 1:colcon.colcon_core.package_identification:_identify(uwb_new_package) by extension 'colcon_pkg'
+[1.176s] Level 1:colcon.colcon_core.package_identification:_identify(uwb_new_package) by extensions ['colcon_meta']
+[1.176s] Level 1:colcon.colcon_core.package_identification:_identify(uwb_new_package) by extension 'colcon_meta'
+[1.177s] Level 1:colcon.colcon_core.package_identification:_identify(uwb_new_package) by extensions ['ros']
+[1.177s] Level 1:colcon.colcon_core.package_identification:_identify(uwb_new_package) by extension 'ros'
+[1.181s] DEBUG:colcon.colcon_core.package_identification:Package 'uwb_new_package' with type 'ros.ament_cmake' and name 'uwb_new_package'
+[1.181s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.181s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.181s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.301s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.302s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.315s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/drone1/ros2_ws/install
+[1.324s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 191 installed packages in /opt/ros/humble
+[1.330s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.525s] Level 5:colcon.colcon_core.verb:set package 'arm' build argument 'cmake_args' from command line to 'None'
+[1.525s] Level 5:colcon.colcon_core.verb:set package 'arm' build argument 'cmake_target' from command line to 'None'
+[1.525s] Level 5:colcon.colcon_core.verb:set package 'arm' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.525s] Level 5:colcon.colcon_core.verb:set package 'arm' build argument 'cmake_clean_cache' from command line to 'False'
+[1.526s] Level 5:colcon.colcon_core.verb:set package 'arm' build argument 'cmake_clean_first' from command line to 'False'
+[1.526s] Level 5:colcon.colcon_core.verb:set package 'arm' build argument 'cmake_force_configure' from command line to 'False'
+[1.526s] Level 5:colcon.colcon_core.verb:set package 'arm' build argument 'ament_cmake_args' from command line to 'None'
+[1.526s] Level 5:colcon.colcon_core.verb:set package 'arm' build argument 'catkin_cmake_args' from command line to 'None'
+[1.526s] Level 5:colcon.colcon_core.verb:set package 'arm' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.526s] DEBUG:colcon.colcon_core.verb:Building package 'arm' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/drone1/ros2_ws/build/arm', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/drone1/ros2_ws/install/arm', 'merge_install': False, 'path': '/home/drone1/ros2_ws/src/arm', 'symlink_install': False, 'test_result_base': None}
+[1.528s] Level 5:colcon.colcon_core.verb:set package 'uwb_new' build argument 'cmake_args' from command line to 'None'
+[1.529s] Level 5:colcon.colcon_core.verb:set package 'uwb_new' build argument 'cmake_target' from command line to 'None'
+[1.529s] Level 5:colcon.colcon_core.verb:set package 'uwb_new' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.529s] Level 5:colcon.colcon_core.verb:set package 'uwb_new' build argument 'cmake_clean_cache' from command line to 'False'
+[1.529s] Level 5:colcon.colcon_core.verb:set package 'uwb_new' build argument 'cmake_clean_first' from command line to 'False'
+[1.530s] Level 5:colcon.colcon_core.verb:set package 'uwb_new' build argument 'cmake_force_configure' from command line to 'False'
+[1.530s] Level 5:colcon.colcon_core.verb:set package 'uwb_new' build argument 'ament_cmake_args' from command line to 'None'
+[1.530s] Level 5:colcon.colcon_core.verb:set package 'uwb_new' build argument 'catkin_cmake_args' from command line to 'None'
+[1.530s] Level 5:colcon.colcon_core.verb:set package 'uwb_new' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.530s] DEBUG:colcon.colcon_core.verb:Building package 'uwb_new' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/drone1/ros2_ws/build/uwb_new', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/drone1/ros2_ws/install/uwb_new', 'merge_install': False, 'path': '/home/drone1/ros2_ws/src/uwb_new', 'symlink_install': False, 'test_result_base': None}
+[1.532s] Level 5:colcon.colcon_core.verb:set package 'uwb_new_package' build argument 'cmake_args' from command line to 'None'
+[1.533s] Level 5:colcon.colcon_core.verb:set package 'uwb_new_package' build argument 'cmake_target' from command line to 'None'
+[1.533s] Level 5:colcon.colcon_core.verb:set package 'uwb_new_package' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.533s] Level 5:colcon.colcon_core.verb:set package 'uwb_new_package' build argument 'cmake_clean_cache' from command line to 'False'
+[1.533s] Level 5:colcon.colcon_core.verb:set package 'uwb_new_package' build argument 'cmake_clean_first' from command line to 'False'
+[1.533s] Level 5:colcon.colcon_core.verb:set package 'uwb_new_package' build argument 'cmake_force_configure' from command line to 'False'
+[1.533s] Level 5:colcon.colcon_core.verb:set package 'uwb_new_package' build argument 'ament_cmake_args' from command line to 'None'
+[1.534s] Level 5:colcon.colcon_core.verb:set package 'uwb_new_package' build argument 'catkin_cmake_args' from command line to 'None'
+[1.534s] Level 5:colcon.colcon_core.verb:set package 'uwb_new_package' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.534s] DEBUG:colcon.colcon_core.verb:Building package 'uwb_new_package' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/drone1/ros2_ws/build/uwb_new_package', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/drone1/ros2_ws/install/uwb_new_package', 'merge_install': False, 'path': '/home/drone1/ros2_ws/uwb_new_package', 'symlink_install': False, 'test_result_base': None}
+[1.535s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.540s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.541s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/drone1/ros2_ws/src/arm' with build type 'ament_python'
+[1.542s] Level 1:colcon.colcon_core.shell:create_environment_hook('arm', 'ament_prefix_path')
+[1.556s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.558s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drone1/ros2_ws/install/arm/share/arm/hook/ament_prefix_path.ps1'
+[1.562s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/drone1/ros2_ws/install/arm/share/arm/hook/ament_prefix_path.dsv'
+[1.566s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drone1/ros2_ws/install/arm/share/arm/hook/ament_prefix_path.sh'
+[1.572s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.572s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.597s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/drone1/ros2_ws/src/uwb_new' with build type 'catkin'
+[1.599s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/drone1/ros2_ws/src/uwb_new'
+[1.600s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.601s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.624s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/drone1/ros2_ws/uwb_new_package' with build type 'ament_cmake'
+[1.625s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/drone1/ros2_ws/uwb_new_package'
+[1.626s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.627s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.935s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/drone1/ros2_ws/src/arm'
+[2.936s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.936s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.972s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/drone1/ros2_ws/build/uwb_new': /usr/bin/cmake --build /home/drone1/ros2_ws/build/uwb_new -- -j4 -l4
+[3.011s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/drone1/ros2_ws/build/uwb_new_package': CMAKE_PREFIX_PATH=/home/drone1/ros2_ws/install/arm:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/drone1/ros2_ws/uwb_new_package -DCMAKE_INSTALL_PREFIX=/home/drone1/ros2_ws/install/uwb_new_package
+[3.383s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/drone1/ros2_ws/build/uwb_new' returned '0': /usr/bin/cmake --build /home/drone1/ros2_ws/build/uwb_new -- -j4 -l4
+[4.189s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/drone1/ros2_ws/build/uwb_new': /usr/bin/cmake --install /home/drone1/ros2_ws/build/uwb_new
+[4.254s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/drone1/ros2_ws/build/uwb_new' returned '0': /usr/bin/cmake --install /home/drone1/ros2_ws/build/uwb_new
+[4.555s] Level 1:colcon.colcon_core.shell:create_environment_hook('uwb_new', 'ros_package_path')
+[4.557s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drone1/ros2_ws/install/uwb_new/share/uwb_new/hook/ros_package_path.ps1'
+[4.559s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/drone1/ros2_ws/install/uwb_new/share/uwb_new/hook/ros_package_path.dsv'
+[4.561s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drone1/ros2_ws/install/uwb_new/share/uwb_new/hook/ros_package_path.sh'
+[4.567s] Level 1:colcon.colcon_core.shell:create_environment_hook('uwb_new', 'pkg_config_path')
+[4.568s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drone1/ros2_ws/install/uwb_new/share/uwb_new/hook/pkg_config_path.ps1'
+[4.571s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/drone1/ros2_ws/install/uwb_new/share/uwb_new/hook/pkg_config_path.dsv'
+[4.574s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drone1/ros2_ws/install/uwb_new/share/uwb_new/hook/pkg_config_path.sh'
+[4.597s] Level 1:colcon.colcon_core.shell:create_environment_hook('uwb_new', 'pkg_config_path_multiarch')
+[4.598s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drone1/ros2_ws/install/uwb_new/share/uwb_new/hook/pkg_config_path_multiarch.ps1'
+[4.602s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/drone1/ros2_ws/install/uwb_new/share/uwb_new/hook/pkg_config_path_multiarch.dsv'
+[4.605s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drone1/ros2_ws/install/uwb_new/share/uwb_new/hook/pkg_config_path_multiarch.sh'
+[4.613s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(uwb_new)
+[4.632s] Level 1:colcon.colcon_core.environment:checking '/home/drone1/ros2_ws/install/uwb_new' for CMake module files
+[4.636s] Level 1:colcon.colcon_core.environment:checking '/home/drone1/ros2_ws/install/uwb_new' for CMake config files
+[4.639s] Level 1:colcon.colcon_core.shell:create_environment_hook('uwb_new', 'cmake_prefix_path')
+[4.640s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drone1/ros2_ws/install/uwb_new/share/uwb_new/hook/cmake_prefix_path.ps1'
+[4.642s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/drone1/ros2_ws/install/uwb_new/share/uwb_new/hook/cmake_prefix_path.dsv'
+[4.645s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drone1/ros2_ws/install/uwb_new/share/uwb_new/hook/cmake_prefix_path.sh'
+[4.649s] Level 1:colcon.colcon_core.environment:checking '/home/drone1/ros2_ws/install/uwb_new/lib'
+[4.650s] Level 1:colcon.colcon_core.environment:checking '/home/drone1/ros2_ws/install/uwb_new/bin'
+[4.650s] Level 1:colcon.colcon_core.environment:checking '/home/drone1/ros2_ws/install/uwb_new/lib/pkgconfig/uwb_new.pc'
+[4.652s] Level 1:colcon.colcon_core.environment:checking '/home/drone1/ros2_ws/install/uwb_new/lib/python3.10/site-packages'
+[4.653s] Level 1:colcon.colcon_core.environment:checking '/home/drone1/ros2_ws/install/uwb_new/bin'
+[4.655s] INFO:colcon.colcon_core.shell:Creating package script '/home/drone1/ros2_ws/install/uwb_new/share/uwb_new/package.ps1'
+[4.661s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/drone1/ros2_ws/install/uwb_new/share/uwb_new/package.dsv'
+[4.665s] INFO:colcon.colcon_core.shell:Creating package script '/home/drone1/ros2_ws/install/uwb_new/share/uwb_new/package.sh'
+[4.673s] INFO:colcon.colcon_core.shell:Creating package script '/home/drone1/ros2_ws/install/uwb_new/share/uwb_new/package.bash'
+[4.678s] INFO:colcon.colcon_core.shell:Creating package script '/home/drone1/ros2_ws/install/uwb_new/share/uwb_new/package.zsh'
+[4.682s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/drone1/ros2_ws/install/uwb_new/share/colcon-core/packages/uwb_new)
+[7.987s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/drone1/ros2_ws/src/arm': PYTHONPATH=/home/drone1/ros2_ws/build/arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone1/ros2_ws/install/arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/arm build --build-base /home/drone1/ros2_ws/build/arm/build install --record /home/drone1/ros2_ws/build/arm/install.log --single-version-externally-managed install_data
+[11.973s] Level 1:colcon.colcon_core.environment:checking '/home/drone1/ros2_ws/install/arm' for CMake module files
+[11.978s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/drone1/ros2_ws/src/arm' returned '0': PYTHONPATH=/home/drone1/ros2_ws/build/arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone1/ros2_ws/install/arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/arm build --build-base /home/drone1/ros2_ws/build/arm/build install --record /home/drone1/ros2_ws/build/arm/install.log --single-version-externally-managed install_data
+[11.983s] Level 1:colcon.colcon_core.environment:checking '/home/drone1/ros2_ws/install/arm' for CMake config files
+[11.994s] Level 1:colcon.colcon_core.environment:checking '/home/drone1/ros2_ws/install/arm/lib'
+[11.996s] Level 1:colcon.colcon_core.environment:checking '/home/drone1/ros2_ws/install/arm/bin'
+[11.996s] Level 1:colcon.colcon_core.environment:checking '/home/drone1/ros2_ws/install/arm/lib/pkgconfig/arm.pc'
+[12.000s] Level 1:colcon.colcon_core.environment:checking '/home/drone1/ros2_ws/install/arm/lib/python3.10/site-packages'
+[12.001s] Level 1:colcon.colcon_core.shell:create_environment_hook('arm', 'pythonpath')
+[12.004s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drone1/ros2_ws/install/arm/share/arm/hook/pythonpath.ps1'
+[12.012s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/drone1/ros2_ws/install/arm/share/arm/hook/pythonpath.dsv'
+[12.021s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drone1/ros2_ws/install/arm/share/arm/hook/pythonpath.sh'
+[12.030s] Level 1:colcon.colcon_core.environment:checking '/home/drone1/ros2_ws/install/arm/bin'
+[12.031s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arm)
+[12.035s] INFO:colcon.colcon_core.shell:Creating package script '/home/drone1/ros2_ws/install/arm/share/arm/package.ps1'
+[12.044s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/drone1/ros2_ws/install/arm/share/arm/package.dsv'
+[12.061s] INFO:colcon.colcon_core.shell:Creating package script '/home/drone1/ros2_ws/install/arm/share/arm/package.sh'
+[12.068s] INFO:colcon.colcon_core.shell:Creating package script '/home/drone1/ros2_ws/install/arm/share/arm/package.bash'
+[12.072s] INFO:colcon.colcon_core.shell:Creating package script '/home/drone1/ros2_ws/install/arm/share/arm/package.zsh'
+[12.077s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/drone1/ros2_ws/install/arm/share/colcon-core/packages/arm)
+[14.238s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/drone1/ros2_ws/build/uwb_new_package' returned '0': CMAKE_PREFIX_PATH=/home/drone1/ros2_ws/install/arm:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/drone1/ros2_ws/uwb_new_package -DCMAKE_INSTALL_PREFIX=/home/drone1/ros2_ws/install/uwb_new_package
+[14.249s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/drone1/ros2_ws/build/uwb_new_package': CMAKE_PREFIX_PATH=/home/drone1/ros2_ws/install/arm:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/drone1/ros2_ws/build/uwb_new_package -- -j4 -l4
+[14.432s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/drone1/ros2_ws/build/uwb_new_package' returned '0': CMAKE_PREFIX_PATH=/home/drone1/ros2_ws/install/arm:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/drone1/ros2_ws/build/uwb_new_package -- -j4 -l4
+[14.570s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/drone1/ros2_ws/build/uwb_new_package': CMAKE_PREFIX_PATH=/home/drone1/ros2_ws/install/arm:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/drone1/ros2_ws/build/uwb_new_package
+[14.629s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(uwb_new_package)
+[14.630s] Level 1:colcon.colcon_core.environment:checking '/home/drone1/ros2_ws/install/uwb_new_package' for CMake module files
+[14.632s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/drone1/ros2_ws/build/uwb_new_package' returned '0': CMAKE_PREFIX_PATH=/home/drone1/ros2_ws/install/arm:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/drone1/ros2_ws/build/uwb_new_package
+[14.635s] Level 1:colcon.colcon_core.environment:checking '/home/drone1/ros2_ws/install/uwb_new_package' for CMake config files
+[14.636s] Level 1:colcon.colcon_core.shell:create_environment_hook('uwb_new_package', 'cmake_prefix_path')
+[14.637s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drone1/ros2_ws/install/uwb_new_package/share/uwb_new_package/hook/cmake_prefix_path.ps1'
+[14.639s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/drone1/ros2_ws/install/uwb_new_package/share/uwb_new_package/hook/cmake_prefix_path.dsv'
+[14.641s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drone1/ros2_ws/install/uwb_new_package/share/uwb_new_package/hook/cmake_prefix_path.sh'
+[14.644s] Level 1:colcon.colcon_core.environment:checking '/home/drone1/ros2_ws/install/uwb_new_package/bin'
+[14.645s] Level 1:colcon.colcon_core.environment:checking '/home/drone1/ros2_ws/install/uwb_new_package/lib/pkgconfig/uwb_new_package.pc'
+[14.646s] Level 1:colcon.colcon_core.environment:checking '/home/drone1/ros2_ws/install/uwb_new_package/lib/python3.10/site-packages'
+[14.647s] Level 1:colcon.colcon_core.environment:checking '/home/drone1/ros2_ws/install/uwb_new_package/bin'
+[14.649s] INFO:colcon.colcon_core.shell:Creating package script '/home/drone1/ros2_ws/install/uwb_new_package/share/uwb_new_package/package.ps1'
+[14.652s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/drone1/ros2_ws/install/uwb_new_package/share/uwb_new_package/package.dsv'
+[14.655s] INFO:colcon.colcon_core.shell:Creating package script '/home/drone1/ros2_ws/install/uwb_new_package/share/uwb_new_package/package.sh'
+[14.657s] INFO:colcon.colcon_core.shell:Creating package script '/home/drone1/ros2_ws/install/uwb_new_package/share/uwb_new_package/package.bash'
+[14.659s] INFO:colcon.colcon_core.shell:Creating package script '/home/drone1/ros2_ws/install/uwb_new_package/share/uwb_new_package/package.zsh'
+[14.661s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/drone1/ros2_ws/install/uwb_new_package/share/colcon-core/packages/uwb_new_package)
+[14.786s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(uwb_new_package)
+[14.788s] Level 1:colcon.colcon_core.environment:checking '/home/drone1/ros2_ws/install/uwb_new_package' for CMake module files
+[14.792s] Level 1:colcon.colcon_core.environment:checking '/home/drone1/ros2_ws/install/uwb_new_package' for CMake config files
+[14.794s] Level 1:colcon.colcon_core.shell:create_environment_hook('uwb_new_package', 'cmake_prefix_path')
+[14.795s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drone1/ros2_ws/install/uwb_new_package/share/uwb_new_package/hook/cmake_prefix_path.ps1'
+[14.798s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/drone1/ros2_ws/install/uwb_new_package/share/uwb_new_package/hook/cmake_prefix_path.dsv'
+[14.800s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drone1/ros2_ws/install/uwb_new_package/share/uwb_new_package/hook/cmake_prefix_path.sh'
+[14.803s] Level 1:colcon.colcon_core.environment:checking '/home/drone1/ros2_ws/install/uwb_new_package/bin'
+[14.803s] Level 1:colcon.colcon_core.environment:checking '/home/drone1/ros2_ws/install/uwb_new_package/lib/pkgconfig/uwb_new_package.pc'
+[14.804s] Level 1:colcon.colcon_core.environment:checking '/home/drone1/ros2_ws/install/uwb_new_package/lib/python3.10/site-packages'
+[14.805s] Level 1:colcon.colcon_core.environment:checking '/home/drone1/ros2_ws/install/uwb_new_package/bin'
+[14.806s] INFO:colcon.colcon_core.shell:Creating package script '/home/drone1/ros2_ws/install/uwb_new_package/share/uwb_new_package/package.ps1'
+[14.809s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/drone1/ros2_ws/install/uwb_new_package/share/uwb_new_package/package.dsv'
+[14.812s] INFO:colcon.colcon_core.shell:Creating package script '/home/drone1/ros2_ws/install/uwb_new_package/share/uwb_new_package/package.sh'
+[14.814s] INFO:colcon.colcon_core.shell:Creating package script '/home/drone1/ros2_ws/install/uwb_new_package/share/uwb_new_package/package.bash'
+[14.817s] INFO:colcon.colcon_core.shell:Creating package script '/home/drone1/ros2_ws/install/uwb_new_package/share/uwb_new_package/package.zsh'
+[14.820s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/drone1/ros2_ws/install/uwb_new_package/share/colcon-core/packages/uwb_new_package)
+[14.821s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[14.822s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[14.823s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[14.823s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[14.852s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[14.853s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[14.853s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[14.910s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[14.911s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/drone1/ros2_ws/install/local_setup.ps1'
+[14.917s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/drone1/ros2_ws/install/_local_setup_util_ps1.py'
+[14.925s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/drone1/ros2_ws/install/setup.ps1'
+[14.934s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/drone1/ros2_ws/install/local_setup.sh'
+[14.937s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/drone1/ros2_ws/install/_local_setup_util_sh.py'
+[14.941s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/drone1/ros2_ws/install/setup.sh'
+[14.948s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/drone1/ros2_ws/install/local_setup.bash'
+[14.952s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/drone1/ros2_ws/install/setup.bash'
+[14.960s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/drone1/ros2_ws/install/local_setup.zsh'
+[14.970s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/drone1/ros2_ws/install/setup.zsh'

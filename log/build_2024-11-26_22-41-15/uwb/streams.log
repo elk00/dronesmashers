@@ -1,0 +1,34 @@
+[1.172s] Invoking command in '/home/drone1/ros2_ws/build/uwb': /usr/bin/cmake --build /home/drone1/ros2_ws/build/uwb -- -j4 -l4
+[1.231s] gmake: Warning: File 'Makefile' has modification time 992 s in the future
+[1.349s] gmake[1]: Warning: File 'CMakeFiles/Makefile2' has modification time 992 s in the future
+[1.367s] gmake[2]: Warning: File 'CMakeFiles/uwb_node.dir/flags.make' has modification time 980 s in the future
+[1.417s] [35m[1mConsolidate compiler generated dependencies of target uwb_node[0m
+[1.460s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[1.476s] gmake[2]: Warning: File 'CMakeFiles/uwb_node.dir/flags.make' has modification time 980 s in the future
+[1.495s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[1.546s] [100%] Built target uwb_node
+[1.551s] gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+[1.597s] gmake: warning:  Clock skew detected.  Your build may be incomplete.
+[1.609s] Invoked command in '/home/drone1/ros2_ws/build/uwb' returned '0': /usr/bin/cmake --build /home/drone1/ros2_ws/build/uwb -- -j4 -l4
+[2.155s] Invoking command in '/home/drone1/ros2_ws/build/uwb': /usr/bin/cmake --install /home/drone1/ros2_ws/build/uwb
+[2.196s] -- Install configuration: ""
+[2.199s] -- Up-to-date: /home/drone1/ros2_ws/install/uwb/lib/uwb/uwb_node
+[2.201s] -- Up-to-date: /home/drone1/ros2_ws/install/uwb/include
+[2.203s] -- Up-to-date: /home/drone1/ros2_ws/install/uwb/include/uwb_new_package
+[2.205s] -- Up-to-date: /home/drone1/ros2_ws/install/uwb/include/uwb
+[2.207s] -- Up-to-date: /home/drone1/ros2_ws/install/uwb/share/ament_index/resource_index/package_run_dependencies/uwb
+[2.209s] -- Up-to-date: /home/drone1/ros2_ws/install/uwb/share/ament_index/resource_index/parent_prefix_path/uwb
+[2.211s] -- Up-to-date: /home/drone1/ros2_ws/install/uwb/share/uwb/environment/ament_prefix_path.sh
+[2.213s] -- Up-to-date: /home/drone1/ros2_ws/install/uwb/share/uwb/environment/ament_prefix_path.dsv
+[2.215s] -- Up-to-date: /home/drone1/ros2_ws/install/uwb/share/uwb/environment/path.sh
+[2.216s] -- Up-to-date: /home/drone1/ros2_ws/install/uwb/share/uwb/environment/path.dsv
+[2.217s] -- Up-to-date: /home/drone1/ros2_ws/install/uwb/share/uwb/local_setup.bash
+[2.219s] -- Up-to-date: /home/drone1/ros2_ws/install/uwb/share/uwb/local_setup.sh
+[2.221s] -- Up-to-date: /home/drone1/ros2_ws/install/uwb/share/uwb/local_setup.zsh
+[2.223s] -- Up-to-date: /home/drone1/ros2_ws/install/uwb/share/uwb/local_setup.dsv
+[2.224s] -- Installing: /home/drone1/ros2_ws/install/uwb/share/uwb/package.dsv
+[2.228s] -- Up-to-date: /home/drone1/ros2_ws/install/uwb/share/ament_index/resource_index/packages/uwb
+[2.229s] -- Up-to-date: /home/drone1/ros2_ws/install/uwb/share/uwb/cmake/uwbConfig.cmake
+[2.230s] -- Up-to-date: /home/drone1/ros2_ws/install/uwb/share/uwb/cmake/uwbConfig-version.cmake
+[2.232s] -- Up-to-date: /home/drone1/ros2_ws/install/uwb/share/uwb/package.xml
+[2.244s] Invoked command in '/home/drone1/ros2_ws/build/uwb' returned '0': /usr/bin/cmake --install /home/drone1/ros2_ws/build/uwb

@@ -1,0 +1,25 @@
+[1.210s] Invoking command in '/home/drone1/ros2_ws/build/uwb_new': /usr/bin/cmake --build /home/drone1/ros2_ws/build/uwb_new -- -j4 -l4
+[1.414s] [35m[1mConsolidate compiler generated dependencies of target uwb_node[0m
+[1.545s] [100%] Built target uwb_node
+[1.598s] Invoked command in '/home/drone1/ros2_ws/build/uwb_new' returned '0': /usr/bin/cmake --build /home/drone1/ros2_ws/build/uwb_new -- -j4 -l4
+[2.170s] Invoking command in '/home/drone1/ros2_ws/build/uwb_new': /usr/bin/cmake --install /home/drone1/ros2_ws/build/uwb_new
+[2.206s] -- Install configuration: ""
+[2.206s] -- Up-to-date: /home/drone1/ros2_ws/install/uwb_new/lib/uwb_new/uwb_node
+[2.209s] -- Up-to-date: /home/drone1/ros2_ws/install/uwb_new/include
+[2.210s] -- Up-to-date: /home/drone1/ros2_ws/install/uwb_new/include/uwb_new
+[2.211s] -- Up-to-date: /home/drone1/ros2_ws/install/uwb_new/share/ament_index/resource_index/package_run_dependencies/uwb_new
+[2.212s] -- Up-to-date: /home/drone1/ros2_ws/install/uwb_new/share/ament_index/resource_index/parent_prefix_path/uwb_new
+[2.213s] -- Up-to-date: /home/drone1/ros2_ws/install/uwb_new/share/uwb_new/environment/ament_prefix_path.sh
+[2.214s] -- Up-to-date: /home/drone1/ros2_ws/install/uwb_new/share/uwb_new/environment/ament_prefix_path.dsv
+[2.215s] -- Up-to-date: /home/drone1/ros2_ws/install/uwb_new/share/uwb_new/environment/path.sh
+[2.215s] -- Up-to-date: /home/drone1/ros2_ws/install/uwb_new/share/uwb_new/environment/path.dsv
+[2.216s] -- Up-to-date: /home/drone1/ros2_ws/install/uwb_new/share/uwb_new/local_setup.bash
+[2.217s] -- Up-to-date: /home/drone1/ros2_ws/install/uwb_new/share/uwb_new/local_setup.sh
+[2.218s] -- Up-to-date: /home/drone1/ros2_ws/install/uwb_new/share/uwb_new/local_setup.zsh
+[2.218s] -- Up-to-date: /home/drone1/ros2_ws/install/uwb_new/share/uwb_new/local_setup.dsv
+[2.219s] -- Installing: /home/drone1/ros2_ws/install/uwb_new/share/uwb_new/package.dsv
+[2.219s] -- Up-to-date: /home/drone1/ros2_ws/install/uwb_new/share/ament_index/resource_index/packages/uwb_new
+[2.220s] -- Up-to-date: /home/drone1/ros2_ws/install/uwb_new/share/uwb_new/cmake/uwb_newConfig.cmake
+[2.220s] -- Up-to-date: /home/drone1/ros2_ws/install/uwb_new/share/uwb_new/cmake/uwb_newConfig-version.cmake
+[2.221s] -- Up-to-date: /home/drone1/ros2_ws/install/uwb_new/share/uwb_new/package.xml
+[2.229s] Invoked command in '/home/drone1/ros2_ws/build/uwb_new' returned '0': /usr/bin/cmake --install /home/drone1/ros2_ws/build/uwb_new

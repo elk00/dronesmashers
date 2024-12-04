@@ -1,0 +1,16 @@
+/home/drone1/ros2_ws/install/uwb/lib/uwb/uwb_node
+/home/drone1/ros2_ws/install/uwb/share/ament_index/resource_index/package_run_dependencies/uwb
+/home/drone1/ros2_ws/install/uwb/share/ament_index/resource_index/parent_prefix_path/uwb
+/home/drone1/ros2_ws/install/uwb/share/uwb/environment/ament_prefix_path.sh
+/home/drone1/ros2_ws/install/uwb/share/uwb/environment/ament_prefix_path.dsv
+/home/drone1/ros2_ws/install/uwb/share/uwb/environment/path.sh
+/home/drone1/ros2_ws/install/uwb/share/uwb/environment/path.dsv
+/home/drone1/ros2_ws/install/uwb/share/uwb/local_setup.bash
+/home/drone1/ros2_ws/install/uwb/share/uwb/local_setup.sh
+/home/drone1/ros2_ws/install/uwb/share/uwb/local_setup.zsh
+/home/drone1/ros2_ws/install/uwb/share/uwb/local_setup.dsv
+/home/drone1/ros2_ws/install/uwb/share/uwb/package.dsv
+/home/drone1/ros2_ws/install/uwb/share/ament_index/resource_index/packages/uwb
+/home/drone1/ros2_ws/install/uwb/share/uwb/cmake/uwbConfig.cmake
+/home/drone1/ros2_ws/install/uwb/share/uwb/cmake/uwbConfig-version.cmake
+/home/drone1/ros2_ws/install/uwb/share/uwb/package.xml

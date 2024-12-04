@@ -1,0 +1,10 @@
+/home/drone1/ros2_ws/build/uwb_new_package/CMakeFiles/uninstall.dir
+/home/drone1/ros2_ws/build/uwb_new_package/CMakeFiles/uwb_new_package_uninstall.dir
+/home/drone1/ros2_ws/build/uwb_new_package/CMakeFiles/uwb_node.dir
+/home/drone1/ros2_ws/build/uwb_new_package/CMakeFiles/test.dir
+/home/drone1/ros2_ws/build/uwb_new_package/CMakeFiles/edit_cache.dir
+/home/drone1/ros2_ws/build/uwb_new_package/CMakeFiles/rebuild_cache.dir
+/home/drone1/ros2_ws/build/uwb_new_package/CMakeFiles/list_install_components.dir
+/home/drone1/ros2_ws/build/uwb_new_package/CMakeFiles/install.dir
+/home/drone1/ros2_ws/build/uwb_new_package/CMakeFiles/install/local.dir
+/home/drone1/ros2_ws/build/uwb_new_package/CMakeFiles/install/strip.dir

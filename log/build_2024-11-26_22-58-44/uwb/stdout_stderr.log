@@ -1,0 +1,4 @@
+[ 20%] [32mBuilding CXX object CMakeFiles/uwb_node.dir/src/parse.cpp.o[0m
+gmake[2]: *** [CMakeFiles/uwb_node.dir/build.make:76: CMakeFiles/uwb_node.dir/src/parse.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/uwb_node.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

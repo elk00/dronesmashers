@@ -1,0 +1,77 @@
+[1.522s] Invoking command in '/home/drone1/ros2_ws/build/uwb_new': /usr/bin/cmake /home/drone1/ros2_ws/src/uwb_new -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/drone1/ros2_ws/install/uwb_new
+[1.848s] -- The C compiler identification is GNU 11.4.0
+[2.201s] -- The CXX compiler identification is GNU 11.4.0
+[2.248s] -- Detecting C compiler ABI info
+[2.552s] -- Detecting C compiler ABI info - done
+[2.583s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[2.585s] -- Detecting C compile features
+[2.586s] -- Detecting C compile features - done
+[2.601s] -- Detecting CXX compiler ABI info
+[2.965s] -- Detecting CXX compiler ABI info - done
+[2.997s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[2.998s] -- Detecting CXX compile features
+[3.000s] -- Detecting CXX compile features - done
+[3.028s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.395s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[6.078s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[6.647s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[6.716s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[6.826s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[6.947s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.063s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.383s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[7.406s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[8.039s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[8.312s] -- Found FastRTPS: /opt/ros/humble/include  
+[8.760s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.859s] -- Looking for pthread.h
+[9.162s] -- Looking for pthread.h - found
+[9.164s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.454s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[9.462s] -- Found Threads: TRUE  
+[9.788s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[10.208s] -- Configuring done
+[10.294s] -- Generating done
+[10.301s] [33mCMake Warning:
+[10.301s]   Manually-specified variables were not used by the project:
+[10.302s] 
+[10.303s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[10.303s] 
+[10.305s] [0m
+[10.306s] -- Build files have been written to: /home/drone1/ros2_ws/build/uwb_new
+[10.345s] Invoked command in '/home/drone1/ros2_ws/build/uwb_new' returned '0': /usr/bin/cmake /home/drone1/ros2_ws/src/uwb_new -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/drone1/ros2_ws/install/uwb_new
+[10.358s] Invoking command in '/home/drone1/ros2_ws/build/uwb_new': /usr/bin/cmake --build /home/drone1/ros2_ws/build/uwb_new -- -j4 -l4
+[10.552s] [35m[1mConsolidate compiler generated dependencies of target uwb_node[0m
+[10.683s] [ 11%] [32mBuilding CXX object CMakeFiles/uwb_node.dir/src/parse.cpp.o[0m
+[10.686s] [ 22%] [32mBuilding C object CMakeFiles/uwb_node.dir/src/nlink_utils.c.o[0m
+[10.705s] [ 33%] [32mBuilding C object CMakeFiles/uwb_node.dir/src/nlink_linktrack_nodeframe0.c.o[0m
+[10.706s] [ 44%] [32mBuilding C object CMakeFiles/uwb_node.dir/src/nlink_linktrack_nodeframe1.c.o[0m
+[10.780s] [ 55%] [32mBuilding C object CMakeFiles/uwb_node.dir/src/nlink_linktrack_nodeframe2.c.o[0m
+[10.788s] [ 66%] [32mBuilding CXX object CMakeFiles/uwb_node.dir/src/UDPClient.cpp.o[0m
+[10.813s] [ 77%] [32mBuilding C object CMakeFiles/uwb_node.dir/src/nlink_linktrack_nodeframe3.c.o[0m
+[10.894s] [ 88%] [32mBuilding CXX object CMakeFiles/uwb_node.dir/src/UDPServer.cpp.o[0m
+[10.987s] [100%] [32m[1mLinking CXX executable uwb_node[0m
+[12.045s] [100%] Built target uwb_node
+[12.093s] Invoked command in '/home/drone1/ros2_ws/build/uwb_new' returned '0': /usr/bin/cmake --build /home/drone1/ros2_ws/build/uwb_new -- -j4 -l4
+[12.727s] Invoking command in '/home/drone1/ros2_ws/build/uwb_new': /usr/bin/cmake --install /home/drone1/ros2_ws/build/uwb_new
+[12.758s] -- Install configuration: ""
+[12.759s] -- Installing: /home/drone1/ros2_ws/install/uwb_new/lib/uwb_new/uwb_node
+[12.771s] -- Set runtime path of "/home/drone1/ros2_ws/install/uwb_new/lib/uwb_new/uwb_node" to ""
+[12.771s] -- Up-to-date: /home/drone1/ros2_ws/install/uwb_new/include
+[12.772s] -- Up-to-date: /home/drone1/ros2_ws/install/uwb_new/include/uwb_new
+[12.772s] -- Up-to-date: /home/drone1/ros2_ws/install/uwb_new/share/ament_index/resource_index/package_run_dependencies/uwb_new
+[12.773s] -- Up-to-date: /home/drone1/ros2_ws/install/uwb_new/share/ament_index/resource_index/parent_prefix_path/uwb_new
+[12.773s] -- Up-to-date: /home/drone1/ros2_ws/install/uwb_new/share/uwb_new/environment/ament_prefix_path.sh
+[12.774s] -- Installing: /home/drone1/ros2_ws/install/uwb_new/share/uwb_new/environment/ament_prefix_path.dsv
+[12.774s] -- Up-to-date: /home/drone1/ros2_ws/install/uwb_new/share/uwb_new/environment/path.sh
+[12.775s] -- Installing: /home/drone1/ros2_ws/install/uwb_new/share/uwb_new/environment/path.dsv
+[12.777s] -- Up-to-date: /home/drone1/ros2_ws/install/uwb_new/share/uwb_new/local_setup.bash
+[12.777s] -- Up-to-date: /home/drone1/ros2_ws/install/uwb_new/share/uwb_new/local_setup.sh
+[12.778s] -- Up-to-date: /home/drone1/ros2_ws/install/uwb_new/share/uwb_new/local_setup.zsh
+[12.778s] -- Installing: /home/drone1/ros2_ws/install/uwb_new/share/uwb_new/local_setup.dsv
+[12.779s] -- Installing: /home/drone1/ros2_ws/install/uwb_new/share/uwb_new/package.dsv
+[12.780s] -- Up-to-date: /home/drone1/ros2_ws/install/uwb_new/share/ament_index/resource_index/packages/uwb_new
+[12.781s] -- Up-to-date: /home/drone1/ros2_ws/install/uwb_new/share/uwb_new/cmake/uwb_newConfig.cmake
+[12.782s] -- Up-to-date: /home/drone1/ros2_ws/install/uwb_new/share/uwb_new/cmake/uwb_newConfig-version.cmake
+[12.782s] -- Up-to-date: /home/drone1/ros2_ws/install/uwb_new/share/uwb_new/package.xml
+[12.788s] Invoked command in '/home/drone1/ros2_ws/build/uwb_new' returned '0': /usr/bin/cmake --install /home/drone1/ros2_ws/build/uwb_new

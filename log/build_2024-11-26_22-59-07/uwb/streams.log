@@ -1,0 +1,14 @@
+[1.227s] Invoking command in '/home/drone1/ros2_ws/build/uwb': /usr/bin/cmake --build /home/drone1/ros2_ws/build/uwb -- -j4 -l4
+[1.609s] [ 20%] [32mBuilding CXX object CMakeFiles/uwb_node.dir/src/parse.cpp.o[0m
+[19.468s] [01m[K/home/drone1/ros2_ws/uwb/src/parse.cpp:[m[K In function ‘[01m[Kvoid reset_state(uint8_t*, size_t&, int&)[m[K’:
+[19.469s] [01m[K/home/drone1/ros2_ws/uwb/src/parse.cpp:114:12:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K-Wformat-extra-args[m[K]
+[19.470s]   114 |     printf([01;35m[K"Resetting state due to invalid frame or timeout?\n"[m[K, g_nlt_tagframe0.fixed_part_size);
+[19.470s]       |            [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[19.471s] [01m[K/home/drone1/ros2_ws/uwb/src/parse.cpp:[m[K At global scope:
+[19.472s] [01m[K/home/drone1/ros2_ws/uwb/src/parse.cpp:118:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kasda[m[K’ does not name a type
+[19.473s]   118 | } [01;31m[Kasda[m[K r we resFa faE
+[19.474s]       |   [01;31m[K^~~~[m[K
+[19.475s] gmake[2]: *** [CMakeFiles/uwb_node.dir/build.make:76: CMakeFiles/uwb_node.dir/src/parse.cpp.o] Error 1
+[19.476s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/uwb_node.dir/all] Error 2
+[19.476s] gmake: *** [Makefile:146: all] Error 2
+[19.484s] Invoked command in '/home/drone1/ros2_ws/build/uwb' returned '2': /usr/bin/cmake --build /home/drone1/ros2_ws/build/uwb -- -j4 -l4

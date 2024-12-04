@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target uwb_node[0m
+[100%] Built target uwb_node
+-- Install configuration: ""
+-- Up-to-date: /home/drone1/ros2_ws/install/uwb/lib/uwb/uwb_node
+-- Up-to-date: /home/drone1/ros2_ws/install/uwb/include
+-- Up-to-date: /home/drone1/ros2_ws/install/uwb/include/uwb_new_package
+-- Up-to-date: /home/drone1/ros2_ws/install/uwb/include/uwb
+-- Up-to-date: /home/drone1/ros2_ws/install/uwb/share/ament_index/resource_index/package_run_dependencies/uwb
+-- Up-to-date: /home/drone1/ros2_ws/install/uwb/share/ament_index/resource_index/parent_prefix_path/uwb
+-- Up-to-date: /home/drone1/ros2_ws/install/uwb/share/uwb/environment/ament_prefix_path.sh
+-- Up-to-date: /home/drone1/ros2_ws/install/uwb/share/uwb/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/drone1/ros2_ws/install/uwb/share/uwb/environment/path.sh
+-- Up-to-date: /home/drone1/ros2_ws/install/uwb/share/uwb/environment/path.dsv
+-- Up-to-date: /home/drone1/ros2_ws/install/uwb/share/uwb/local_setup.bash
+-- Up-to-date: /home/drone1/ros2_ws/install/uwb/share/uwb/local_setup.sh
+-- Up-to-date: /home/drone1/ros2_ws/install/uwb/share/uwb/local_setup.zsh
+-- Up-to-date: /home/drone1/ros2_ws/install/uwb/share/uwb/local_setup.dsv
+-- Installing: /home/drone1/ros2_ws/install/uwb/share/uwb/package.dsv
+-- Up-to-date: /home/drone1/ros2_ws/install/uwb/share/ament_index/resource_index/packages/uwb
+-- Up-to-date: /home/drone1/ros2_ws/install/uwb/share/uwb/cmake/uwbConfig.cmake
+-- Up-to-date: /home/drone1/ros2_ws/install/uwb/share/uwb/cmake/uwbConfig-version.cmake
+-- Up-to-date: /home/drone1/ros2_ws/install/uwb/share/uwb/package.xml

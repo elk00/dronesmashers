@@ -1,0 +1,3 @@
+[35m[1mConsolidate compiler generated dependencies of target uwb_node[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/uwb_node.dir/src/parse.cpp.o[0m
+[ 22%] [32m[1mLinking CXX executable uwb_node[0m

@@ -1,0 +1,2 @@
+Invoking command in '/home/drone1/ros2_ws/build/uwb_new': /usr/bin/cmake /home/drone1/ros2_ws/src/uwb_new -DCMAKE_INSTALL_PREFIX=/home/drone1/ros2_ws/install/uwb_new
+Invoked command in '/home/drone1/ros2_ws/build/uwb_new' returned '1': /usr/bin/cmake /home/drone1/ros2_ws/src/uwb_new -DCMAKE_INSTALL_PREFIX=/home/drone1/ros2_ws/install/uwb_new

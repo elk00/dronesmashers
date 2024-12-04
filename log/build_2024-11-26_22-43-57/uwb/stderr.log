@@ -1,0 +1,3 @@
+[01m[K/home/drone1/ros2_ws/uwb/src/parse.cpp:23:30:[m[K [01;35m[Kwarning: [m[Kextra tokens at end of #include directive
+   23 | #include <rclcpp/rclcpp.hpp> [01;35m[Kwaeaw[m[K vaw d
+      |                              [01;35m[K^~~~~[m[K

@@ -1,0 +1,45 @@
+running egg_info
+creating ../../build/arm/arm.egg-info
+writing ../../build/arm/arm.egg-info/PKG-INFO
+writing dependency_links to ../../build/arm/arm.egg-info/dependency_links.txt
+writing entry points to ../../build/arm/arm.egg-info/entry_points.txt
+writing requirements to ../../build/arm/arm.egg-info/requires.txt
+writing top-level names to ../../build/arm/arm.egg-info/top_level.txt
+writing manifest file '../../build/arm/arm.egg-info/SOURCES.txt'
+reading manifest file '../../build/arm/arm.egg-info/SOURCES.txt'
+writing manifest file '../../build/arm/arm.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/drone1/ros2_ws/build/arm/build/lib/arm
+copying arm/arm_and_spin.py -> /home/drone1/ros2_ws/build/arm/build/lib/arm
+copying arm/arm.py -> /home/drone1/ros2_ws/build/arm/build/lib/arm
+copying arm/__init__.py -> /home/drone1/ros2_ws/build/arm/build/lib/arm
+copying arm/new.py -> /home/drone1/ros2_ws/build/arm/build/lib/arm
+copying arm/first.py -> /home/drone1/ros2_ws/build/arm/build/lib/arm
+copying arm/drone.py -> /home/drone1/ros2_ws/build/arm/build/lib/arm
+running install
+running install_lib
+creating /home/drone1/ros2_ws/install/arm/lib/python3.10/site-packages/arm
+copying /home/drone1/ros2_ws/build/arm/build/lib/arm/arm_and_spin.py -> /home/drone1/ros2_ws/install/arm/lib/python3.10/site-packages/arm
+copying /home/drone1/ros2_ws/build/arm/build/lib/arm/arm.py -> /home/drone1/ros2_ws/install/arm/lib/python3.10/site-packages/arm
+copying /home/drone1/ros2_ws/build/arm/build/lib/arm/__init__.py -> /home/drone1/ros2_ws/install/arm/lib/python3.10/site-packages/arm
+copying /home/drone1/ros2_ws/build/arm/build/lib/arm/new.py -> /home/drone1/ros2_ws/install/arm/lib/python3.10/site-packages/arm
+copying /home/drone1/ros2_ws/build/arm/build/lib/arm/first.py -> /home/drone1/ros2_ws/install/arm/lib/python3.10/site-packages/arm
+copying /home/drone1/ros2_ws/build/arm/build/lib/arm/drone.py -> /home/drone1/ros2_ws/install/arm/lib/python3.10/site-packages/arm
+byte-compiling /home/drone1/ros2_ws/install/arm/lib/python3.10/site-packages/arm/arm_and_spin.py to arm_and_spin.cpython-310.pyc
+byte-compiling /home/drone1/ros2_ws/install/arm/lib/python3.10/site-packages/arm/arm.py to arm.cpython-310.pyc
+byte-compiling /home/drone1/ros2_ws/install/arm/lib/python3.10/site-packages/arm/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/drone1/ros2_ws/install/arm/lib/python3.10/site-packages/arm/new.py to new.cpython-310.pyc
+byte-compiling /home/drone1/ros2_ws/install/arm/lib/python3.10/site-packages/arm/first.py to first.cpython-310.pyc
+byte-compiling /home/drone1/ros2_ws/install/arm/lib/python3.10/site-packages/arm/drone.py to drone.cpython-310.pyc
+running install_data
+creating /home/drone1/ros2_ws/install/arm/share/ament_index/resource_index/packages
+copying resource/arm -> /home/drone1/ros2_ws/install/arm/share/ament_index/resource_index/packages
+copying package.xml -> /home/drone1/ros2_ws/install/arm/share/arm
+running install_egg_info
+Copying ../../build/arm/arm.egg-info to /home/drone1/ros2_ws/install/arm/lib/python3.10/site-packages/arm-0.0.0-py3.10.egg-info
+running install_scripts
+Installing arm script to /home/drone1/ros2_ws/install/arm/lib/arm
+Installing arm_and_spin script to /home/drone1/ros2_ws/install/arm/lib/arm
+Installing drone script to /home/drone1/ros2_ws/install/arm/lib/arm
+writing list of installed files to '/home/drone1/ros2_ws/build/arm/install.log'

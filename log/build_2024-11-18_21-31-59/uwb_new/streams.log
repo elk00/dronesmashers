@@ -1,0 +1,56 @@
+[1.118s] Invoking command in '/home/drone1/ros2_ws/build/uwb_new': /usr/bin/cmake /home/drone1/ros2_ws/src/uwb_new -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/drone1/ros2_ws/install/uwb_new
+[1.177s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.945s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[2.159s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.173s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.206s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.259s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.329s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.514s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.521s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.493s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.755s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[4.318s] -- Configuring done
+[4.393s] -- Generating done
+[4.400s] [33mCMake Warning:
+[4.400s]   Manually-specified variables were not used by the project:
+[4.401s] 
+[4.402s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[4.402s] 
+[4.403s] [0m
+[4.404s] -- Build files have been written to: /home/drone1/ros2_ws/build/uwb_new
+[4.440s] Invoked command in '/home/drone1/ros2_ws/build/uwb_new' returned '0': /usr/bin/cmake /home/drone1/ros2_ws/src/uwb_new -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/drone1/ros2_ws/install/uwb_new
+[4.453s] Invoking command in '/home/drone1/ros2_ws/build/uwb_new': /usr/bin/cmake --build /home/drone1/ros2_ws/build/uwb_new -- -j4 -l4
+[4.732s] [ 11%] [32mBuilding C object CMakeFiles/uwb_node.dir/src/nlink_utils.c.o[0m
+[4.746s] [ 22%] [32mBuilding CXX object CMakeFiles/uwb_node.dir/src/parse.cpp.o[0m
+[4.761s] [ 33%] [32mBuilding C object CMakeFiles/uwb_node.dir/src/nlink_linktrack_nodeframe1.c.o[0m
+[4.776s] [ 44%] [32mBuilding C object CMakeFiles/uwb_node.dir/src/nlink_linktrack_nodeframe0.c.o[0m
+[4.825s] [ 55%] [32mBuilding C object CMakeFiles/uwb_node.dir/src/nlink_linktrack_nodeframe2.c.o[0m
+[4.864s] [ 66%] [32mBuilding C object CMakeFiles/uwb_node.dir/src/nlink_linktrack_nodeframe3.c.o[0m
+[4.898s] [ 77%] [32mBuilding CXX object CMakeFiles/uwb_node.dir/src/UDPClient.cpp.o[0m
+[4.942s] [ 88%] [32mBuilding CXX object CMakeFiles/uwb_node.dir/src/UDPServer.cpp.o[0m
+[5.037s] [100%] [32m[1mLinking CXX executable uwb_node[0m
+[6.176s] [100%] Built target uwb_node
+[6.223s] Invoked command in '/home/drone1/ros2_ws/build/uwb_new' returned '0': /usr/bin/cmake --build /home/drone1/ros2_ws/build/uwb_new -- -j4 -l4
+[6.825s] Invoking command in '/home/drone1/ros2_ws/build/uwb_new': /usr/bin/cmake --install /home/drone1/ros2_ws/build/uwb_new
+[6.862s] -- Install configuration: ""
+[6.864s] -- Installing: /home/drone1/ros2_ws/install/uwb_new/lib/uwb_new/uwb_node
+[6.876s] -- Set runtime path of "/home/drone1/ros2_ws/install/uwb_new/lib/uwb_new/uwb_node" to ""
+[6.877s] -- Installing: /home/drone1/ros2_ws/install/uwb_new/include
+[6.877s] -- Installing: /home/drone1/ros2_ws/install/uwb_new/include/uwb_new
+[6.879s] -- Installing: /home/drone1/ros2_ws/install/uwb_new/share/ament_index/resource_index/package_run_dependencies/uwb_new
+[6.881s] -- Installing: /home/drone1/ros2_ws/install/uwb_new/share/ament_index/resource_index/parent_prefix_path/uwb_new
+[6.883s] -- Installing: /home/drone1/ros2_ws/install/uwb_new/share/uwb_new/environment/ament_prefix_path.sh
+[6.884s] -- Installing: /home/drone1/ros2_ws/install/uwb_new/share/uwb_new/environment/ament_prefix_path.dsv
+[6.886s] -- Installing: /home/drone1/ros2_ws/install/uwb_new/share/uwb_new/environment/path.sh
+[6.887s] -- Installing: /home/drone1/ros2_ws/install/uwb_new/share/uwb_new/environment/path.dsv
+[6.889s] -- Installing: /home/drone1/ros2_ws/install/uwb_new/share/uwb_new/local_setup.bash
+[6.890s] -- Installing: /home/drone1/ros2_ws/install/uwb_new/share/uwb_new/local_setup.sh
+[6.892s] -- Installing: /home/drone1/ros2_ws/install/uwb_new/share/uwb_new/local_setup.zsh
+[6.893s] -- Installing: /home/drone1/ros2_ws/install/uwb_new/share/uwb_new/local_setup.dsv
+[6.895s] -- Installing: /home/drone1/ros2_ws/install/uwb_new/share/uwb_new/package.dsv
+[6.897s] -- Installing: /home/drone1/ros2_ws/install/uwb_new/share/ament_index/resource_index/packages/uwb_new
+[6.899s] -- Installing: /home/drone1/ros2_ws/install/uwb_new/share/uwb_new/cmake/uwb_newConfig.cmake
+[6.900s] -- Installing: /home/drone1/ros2_ws/install/uwb_new/share/uwb_new/cmake/uwb_newConfig-version.cmake
+[6.901s] -- Installing: /home/drone1/ros2_ws/install/uwb_new/share/uwb_new/package.xml
+[6.909s] Invoked command in '/home/drone1/ros2_ws/build/uwb_new' returned '0': /usr/bin/cmake --install /home/drone1/ros2_ws/build/uwb_new

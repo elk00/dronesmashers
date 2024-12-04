@@ -1,0 +1,6 @@
+[1.301s] Invoking command in '/home/drone1/ros2_ws/build/uwb': /usr/bin/cmake --build /home/drone1/ros2_ws/build/uwb -- -j4 -l4
+[1.640s] [ 20%] [32mBuilding CXX object CMakeFiles/uwb_node.dir/src/parse.cpp.o[0m
+[20.436s] gmake[2]: *** [CMakeFiles/uwb_node.dir/build.make:76: CMakeFiles/uwb_node.dir/src/parse.cpp.o] Interrupt
+[20.437s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/uwb_node.dir/all] Interrupt
+[20.442s] gmake: *** [Makefile:146: all] Interrupt
+[20.506s] Invoked command in '/home/drone1/ros2_ws/build/uwb' returned '-2': /usr/bin/cmake --build /home/drone1/ros2_ws/build/uwb -- -j4 -l4
