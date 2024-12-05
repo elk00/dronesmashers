@@ -162,9 +162,9 @@ class DroneController(Node):
             return
 
         self.get_logger().info('Taking off using CommandTOL...')
-        target_altitude = 0.2  # Desired altitude
+        target_altitude = 0.5  # Desired altitude
 
-         # Use current GPS location for takeoff
+        # Use current GPS location for takeoff
         lat = self.origin_lat
         lon = self.origin_lon
         alt = self.origin_alt
@@ -194,18 +194,16 @@ class DroneController(Node):
         """Switch to LOITER mode to stabilize the drone at the target altitude."""
         self.get_logger().info("Switching to LOITER mode for stabilization...")
         #self.set_mode('LOITER')  # Switch to LOITER mode
-        
+
         self.get_logger().info(f"Waiting for drone to reach and stabilize at altitude: {target_altitude} meters...")
         start_time = time.time()
         while time.time() - start_time < timeout:
-            if self.current_position and abs(self.current_position.position.z - target_altitude) < 0.1:
+            if self.current_position and abs(self.current_position.position.z - target_altitude) < 0.:
                 self.get_logger().info("Drone stabilized at target altitude.")
                 self.set_mode('LOITER')
                 return True
             time.sleep(0.1)
-            self.get_logger().info(f'current alt: {self.current_position.position.z}')
-            self.get_logger().info(f"to target alt: {abs(self.current_position.position.z - target_altitude)}")
-
+            self.get 
         self.get_logger().error("Drone failed to stabilize at target altitude.")
         self.set_mode('LOITER')
         return False

@@ -28,7 +28,7 @@ class ArmCopter(Node):
 
     def set_offboard_mode(self):
     	request = SetMode.Request()  # Use SetMode.Request() to create a request
-    	request.custom_mode = 'MANUAL'  # Set to 'OFFBOARD' mode
+    	request.custom_mode = 'GUIDED'  # Set to 'OFFBOARD' mode
     	future = self.set_mode_service.call_async(request)
     	rclpy.spin_until_future_complete(self, future)
 
